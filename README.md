@@ -1,6 +1,6 @@
 # Alexa-Skill-kit-for-Extron-Control-System
 
-The purpose of this projects is to let colaboration room users to control the basic room function with voice commands.
+The purpose of this projects is to let video conference room users to control the basic room function with voice commands.
 Our room is based on Extron control processor IPCP PRO 350 and the Smart speaker with Alexa is the Echo Dot (3rd Gen).
 So in this project both Amazon Alexa and Extron Controller where programmed to cooperate.
 Fistly i used alexa developer console to create a new skill that contains all the key words that are related with the room fuctions. 
