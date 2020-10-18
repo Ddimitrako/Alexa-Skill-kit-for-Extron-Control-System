@@ -1,0 +1,476 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "extron system",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "inputoutputIntent",
+                    "slots": [
+                        {
+                            "name": "input",
+                            "type": "LIST_OF_VID_INPUTS"
+                        },
+                        {
+                            "name": "output",
+                            "type": "LIST_OF_VID_OUTPUTS"
+                        }
+                    ],
+                    "samples": [
+                        "matrix {input} to {output}",
+                        "send {input} to {output}"
+                    ]
+                },
+                {
+                    "name": "powerIntent",
+                    "slots": [
+                        {
+                            "name": "on_off",
+                            "type": "LIST_OF_ON_OFF"
+                        }
+                    ],
+                    "samples": [
+                        "turn system {on_off}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "i don't know how to use this application",
+                        "help me",
+                        "please help me"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "shutdownIntent",
+                    "slots": [],
+                    "samples": [
+                        "shut down extron control"
+                    ]
+                },
+                {
+                    "name": "test",
+                    "slots": [],
+                    "samples": [
+                        "test test",
+                        "run test",
+                        "test "
+                    ]
+                },
+                {
+                    "name": "bossIntent",
+                    "slots": [],
+                    "samples": [
+                        "who is the boss in telmaco"
+                    ]
+                },
+                {
+                    "name": "lightsIntent",
+                    "slots": [
+                        {
+                            "name": "lightsmode",
+                            "type": "LIST_OF_LIGHTS_SLOTS"
+                        }
+                    ],
+                    "samples": [
+                        "open lights in {lightsmode}",
+                        "set lights in {lightsmode}",
+                        "set lights {lightsmode}",
+                        "turn lights {lightsmode}",
+                        "set lights at {lightsmode}",
+                        "turn the lights {lightsmode}",
+                        "turn {lightsmode} the lights",
+                        "lights {lightsmode}"
+                    ]
+                },
+                {
+                    "name": "volumeIntent",
+                    "slots": [
+                        {
+                            "name": "value",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "volumemode",
+                            "type": "LIST_OF_VOLUME_SLOTS"
+                        }
+                    ],
+                    "samples": [
+                        "to set volume  {volumemode}",
+                        "{volumemode} volume",
+                        "set volume  {volumemode}",
+                        "set volume to {value} ",
+                        "volume {value} ",
+                        "volume to {value} percent",
+                        "set volume to {value} percent",
+                        "volume {volumemode}",
+                        "microphone {volumemode}",
+                        "set volume to {volumemode}"
+                    ]
+                },
+                {
+                    "name": "InputPresetIntent",
+                    "slots": [
+                        {
+                            "name": "Input",
+                            "type": "LIST_OF_VID_INPUTS"
+                        }
+                    ],
+                    "samples": [
+                        "select {Input}"
+                    ]
+                },
+                {
+                    "name": "monitorsIntent",
+                    "slots": [
+                        {
+                            "name": "monitors_states",
+                            "type": "LIST_OF_MONITOR_STATES"
+                        }
+                    ],
+                    "samples": [
+                        "{monitors_states} screens",
+                        "{monitors_states} monitors",
+                        "monitors  {monitors_states}",
+                        "screens {monitors_states}"
+                    ]
+                },
+                {
+                    "name": "shadesIntent",
+                    "slots": [
+                        {
+                            "name": "mode",
+                            "type": "LIST_OF_SHADES_SLOTS"
+                        }
+                    ],
+                    "samples": [
+                        "shades {mode}"
+                    ]
+                },
+                {
+                    "name": "AudioCall",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.PhoneNumber"
+                        },
+                        {
+                            "name": "contact",
+                            "type": "Ioanna"
+                        }
+                    ],
+                    "samples": [
+                        "call contact {contact}",
+                        "call number {number}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_VID_INPUTS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "TV",
+                                "synonyms": [
+                                    "tv"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hdmi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PC",
+                                "synonyms": [
+                                    "pc",
+                                    "Rack PC"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clickshare"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cisco"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Laptop"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_VID_OUTPUTS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "both screens",
+                                "synonyms": [
+                                    "all monitos",
+                                    "all screens ",
+                                    "screen one and two",
+                                    "one and two screen"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "left screen",
+                                "synonyms": [
+                                    "monitor one",
+                                    "screen one ",
+                                    "first screen",
+                                    "left monitor",
+                                    "monitor  left"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "right screen",
+                                "synonyms": [
+                                    "second screen ",
+                                    "screen 2",
+                                    "monitor 2",
+                                    "monitor two",
+                                    "right monitor"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_ON_OFF",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "on"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "off"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_VOLUME_SLOTS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "mute_unmute",
+                                "synonyms": [
+                                    "unmute",
+                                    "mute"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "value"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "max",
+                                "synonyms": [
+                                    "maximum"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "min",
+                                "synonyms": [
+                                    "minimum"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_LIGHTS_SLOTS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "videoconference "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "brightscene"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "coldlights "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "warmlights "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "defaultscene"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "presentationmode"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "off"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "on"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_MONITOR_STATES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "OFF",
+                                "synonyms": [
+                                    "shut down",
+                                    "turn off"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ON",
+                                "synonyms": [
+                                    "turn on"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_SHADES_SLOTS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "STOP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "OFF"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ON"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "AudioCallNumber_SLOTS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "7"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "1"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Ioanna",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "ioanna"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
