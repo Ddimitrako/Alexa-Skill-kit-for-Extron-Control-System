@@ -8,9 +8,10 @@ The second step was to create a new function in the Amazon AWS Lambda with Pytho
 and the send the appropriate comand to the controller. 
 Finally the controller receives the command and then runs the deddicated function for the room automation sequence.
 
-#How it works
---------------------------------------------------------------------------------------------------------------------------------
-#Images
+# How it works
+
+# Images
+
 ![download](https://user-images.githubusercontent.com/73073984/103212731-4c1bdc80-4914-11eb-80fb-ec481f34b887.jpg)
 
 ![](images/room.jpg) 
