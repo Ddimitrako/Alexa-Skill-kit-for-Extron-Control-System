@@ -6,6 +6,10 @@ So in this project both Amazon Alexa and Extron Controller where programmed to c
 Fistly i used alexa developer console to create a new skill that contains all the key words that are related with the room fuctions. 
 The second step was to create a new function in the Amazon AWS Lambda with Python. This function receives the incoming json output from the AI voice recognition 
 and the send the appropriate comand to the controller. 
-Finally the controller receives the command and then runs the deddicated function for the room automation sequence
+Finally the controller receives the command and then runs the deddicated function for the room automation sequence.
+
+![download](https://user-images.githubusercontent.com/73073984/103212731-4c1bdc80-4914-11eb-80fb-ec481f34b887.jpg)
+
+# Check-it-on-Youtube
 
 Link:https://youtu.be/hlUI-A3MYXQ
