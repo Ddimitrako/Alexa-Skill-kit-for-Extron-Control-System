@@ -13,10 +13,14 @@ A simple explanation:
 When alexa hears your command it send your voice to the cloud, where it processes it and result a json file with all the words contained in the sentence you pronounced. Then it sent it to alexa skill and compare it with the saved intents i have created. If data are matched then the existed code in Aws lambda start the execution.  
  
 # Images
-
+Eco Dot Device
 ![download](https://user-images.githubusercontent.com/73073984/103212731-4c1bdc80-4914-11eb-80fb-ec481f34b887.jpg)
 
+Tested room image
+
 ![](images/room.jpg) 
+
+Services Diagram
 ![](images/CloudServices.jpg)
 
 # Check-it-on-Youtube
