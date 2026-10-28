@@ -1,0 +1,143 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "extron controller",
+          "modelConfiguration": {
+              "fallbackIntentSensitivity": {
+                  "level": "LOW"
+              }
+          },
+          "intents": [
+              {
+                  "name": "inputoutputIntent",
+                  "slots": [
+                      {
+                          "name": "input",
+                          "type": "LIST_OF_VID_INPUTS"
+                      },
+                      {
+                          "name": "output",
+                          "type": "LIST_OF_VID_OUTPUTS"
+                      }
+                  ],
+                  "samples": [
+                      "send {input} to {output}"
+                  ]
+              },
+              {
+                  "name": "UserIsOk",
+                  "slots": [
+                      {
+                          "name": "okslot",
+                          "type": "OK"
+                      }
+                  ],
+                  "samples": [
+                      "provide other samples for UserIsOk",
+                      "I'm {okslot}",
+                      "{okslot}"
+                  ]
+              },
+              {
+                  "name": "powerIntent",
+                  "slots": [
+                      {
+                          "name": "on_off",
+                          "type": "LIST_OF_ON_OFF"
+                      }
+                  ],
+                  "samples": [
+                      "turn system {on_off}"
+                  ]
+              },
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              }
+          ],
+          "types": [
+              {
+                  "name": "LIST_OF_VID_INPUTS",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "PC"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Clickshare"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Cisco"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Laptop"
+                          }
+                      }
+                  ]
+              },
+              {
+                  "name": "LIST_OF_VID_OUTPUTS",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "left screen"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "right screen"
+                          }
+                      }
+                  ]
+              },
+              {
+                  "name": "OK",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "ok"
+                          }
+                      }
+                  ]
+              },
+              {
+                  "name": "LIST_OF_ON_OFF",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "on"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "off"
+                          }
+                      }
+                  ]
+              }
+          ]
+      }
+  }
+}

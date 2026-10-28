@@ -1,0 +1,270 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "extron controller",
+      "intents": [
+        {
+          "intent": "inputoutputIntent",
+          "slots": [
+            {
+              "name": "input",
+              "type": "LIST_OF_VID_INPUTS"
+            },
+            {
+              "name": "output",
+              "type": "LIST_OF_VID_OUTPUTS"
+            }
+          ]
+        },
+        {
+          "intent": "volume_updownIntent",
+          "slots": [
+            {
+              "name": "channel",
+              "type": "LIST_OF_AUD_CHANNELS"
+            },
+            {
+              "name": "up_down",
+              "type": "LIST_OF_UP_DOWN"
+            }
+          ]
+        },
+        {
+          "intent": "volume_setIntent",
+          "slots": [
+            {
+              "name": "channel",
+              "type": "LIST_OF_AUD_CHANNELS"
+            },
+            {
+              "name": "volume_level",
+              "type": "AMAZON.NUMBER"
+            }
+          ]
+        },
+        {
+          "intent": "aud_muteIntent",
+          "slots": [
+            {
+              "name": "aud_channel",
+              "type": "LIST_OF_AUD_CHANNELS"
+            },
+            {
+              "name": "on_off",
+              "type": "LIST_OF_ON_OFF"
+            }
+          ]
+        },
+        {
+          "intent": "powerIntent",
+          "slots": [
+            {
+              "name": "powerdevice",
+              "type": "LIST_OF_VID_INPUTS"
+            },
+            {
+              "name": "on_off",
+              "type": "LIST_OF_ON_OFF"
+            }
+          ]
+        },
+        {
+          "intent": "video_muteIntent",
+          "slots": [
+            {
+              "name": "on_off",
+              "type": "LIST_OF_ON_OFF"
+            }
+          ]
+        },
+        {
+          "intent": "video_freezeIntent",
+          "slots": [
+            {
+              "name": "on_off",
+              "type": "LIST_OF_ON_OFF"
+            }
+          ]
+        },
+        {
+          "intent": "transportsIntent",
+          "slots": [
+            {
+              "name": "transportdevice",
+              "type": "LIST_OF_TRANSPORT_DEVICES"
+            },
+            {
+              "name": "transport",
+              "type": "LIST_OF_TRANSPORTS"
+            }
+          ]
+        },
+        {
+          "intent": "lightingIntent",
+          "slots": [
+            {
+              "name": "lightlevel",
+              "type": "LIST_OF_LIGHT_SETTINGS"
+            },
+            {
+              "name": "on_off",
+              "type": "LIST_OF_ON_OFF"
+            }
+          ]
+        },
+        {
+          "intent": "startupIntent"
+        },
+        {
+          "intent": "shutdownIntent"
+        },
+        {
+          "intent": "AMAZON.YesIntent"
+        },
+        {
+          "intent": "AMAZON.NoIntent"
+        },
+        {
+          "intent": "AMAZON.HelpIntent"
+        }
+      ],
+      "types": [
+        {
+            "name": "LIST_OF_AUD_CHANNELS",
+            "values": [
+                {
+                    "name": {
+                        "value": "main"
+                    }
+                },
+                {
+                    "name": {
+                        "value": "program"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "LIST_OF_LIGHT_SETTINGS",
+            "values": [
+                {
+                    "name": {
+                        "value": "not ok"
+                    }
+                },
+                {
+                    "name": {
+                        "value": "nope"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "LIST_OF_ON_OFF",
+            "values": [
+                {
+                    "name": {
+                        "value": "Physics"
+                    }
+                },
+                {
+                    "name": {
+                        "value": "Biology"
+                    }
+                }
+            ]
+        },
+        {
+          "name": "LIST_OF_TRANSPORTS",
+          "values": [
+              {
+                  "name": {
+                      "value": "Physics"
+                  }
+              },
+              {
+                  "name": {
+                      "value": "Biology"
+                  }
+              }
+          ]
+      },
+      {
+        "name": "LIST_OF_TRANSPORT_DEVICES",
+        "values": [
+            {
+                "name": {
+                    "value": "Physics"
+                }
+            },
+            {
+                "name": {
+                    "value": "Biology"
+                }
+            }
+        ]
+    },
+    {
+      "name": "LIST_OF_UP_DOWN",
+      "values": [
+          {
+              "name": {
+                  "value": "Physics"
+              }
+          },
+          {
+              "name": {
+                  "value": "Biology"
+              }
+          }
+      ]
+  },
+  {
+    "name": "LIST_OF_VID_EFFECTS",
+    "values": [
+        {
+            "name": {
+                "value": "Physics"
+            }
+        },
+        {
+            "name": {
+                "value": "Biology"
+            }
+        }
+    ]
+},
+{
+  "name": "LIST_OF_VID_INPUTS",
+  "values": [
+      {
+          "name": {
+              "value": "Physics"
+          }
+      },
+      {
+          "name": {
+              "value": "Biology"
+          }
+      }
+  ]
+},
+{
+  "name": "LIST_OF_VID_OUTPUTS",
+  "values": [
+      {
+          "name": {
+              "value": "Physics"
+          }
+      },
+      {
+          "name": {
+              "value": "Biology"
+          }
+      }
+  ]
+}
+    ]
+}
+}
+}

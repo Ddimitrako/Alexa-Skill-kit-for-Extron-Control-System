@@ -1,0 +1,44 @@
+startupIntent to start up
+startupIntent to start the system
+
+shutdownIntent to shut down
+shutdownIntent to shut down the system
+
+inputoutputIntent to show the {input} input
+inputoutputIntent to show the {input} connection
+inputoutputIntent to show the {input} input on the {output} monitor
+inputoutputIntent to show the {input} connection on the {output} monitor
+inputoutputIntent to show the {input} input on the {output} display
+inputoutputIntent to show the {input} connection on the {output} display
+inputoutputIntent to show the {input} input on the {output} screen
+inputoutputIntent to show the {input} connection on the {output} screen
+
+volume_adjustIntent to adjust the {channel} volume {up_down}
+volume_adjustIntent to adjust the {channel} volume level {up_down}
+
+volume_setIntent to set {channel} volume to {volume_level} percent
+volume_setIntent to set the {channel} volume to {volume_level} percent
+volume_setIntent to set {channel} volume level to {volume_level} percent
+volume_setIntent to set the {channel} volume level to {volume_level} percent
+
+volume_muteIntent to set {channel} audio mute to {on_off}
+volume_muteIntent to set the {channel} audio mute to {on_off}
+volume_muteIntent to set {channel} mute to {on_off}
+volume_muteIntent to set the {channel} mute to {on_off}
+
+video_muteIntent to set video mute to {on_off}
+video_muteIntent to set the video mute to {on_off}
+
+video_freezeIntent to set video freeze to {on_off}
+video_freezeIntent to set the video freeze to {on_off}
+
+transportIntent press {transport}
+transportIntent press the {transport} button
+
+lightingIntent to set lights to {lightlevel}
+lightingIntent to set the lights to {lightlevel}
+
+lightingOnOffIntent to turn the lights {on_off}
+
+shadesIntent to set shades to {up_down}
+shadesIntent to set the shades to {up_down}

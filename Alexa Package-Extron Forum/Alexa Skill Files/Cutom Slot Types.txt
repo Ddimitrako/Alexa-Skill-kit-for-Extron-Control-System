@@ -1,0 +1,77 @@
+SLOTS
+
+LIST_OF_AUD_CHANNELS
+main
+program
+left
+right
+microphone
+
+
+LIST_OF_LIGHT_SETTINGS
+on
+off
+preset 1
+preset 2
+preset 3
+preset 4
+presentation
+high
+medium
+low
+
+
+LIST_OF_ON_OFF
+on
+off
+
+
+LIST_OF_TRANSPORTS
+play
+pause
+stop
+rewind
+fast forward
+skip back
+skip forward
+eject
+
+
+LIST_OF_TRANSPORT_DEVICES
+bluray
+dvd
+vcr
+
+
+LIST_OF_UP_DOWN
+up
+down
+
+
+LIST_OF_VID_EFFECTS
+freeze
+mute
+
+
+LIST_OF_VID_INPUTS
+HDMI
+VGA
+Displayport
+PC
+Computer
+Bluray
+Laptop
+DVD
+Document Camera
+ShareLink
+AppleTV
+Air Media
+
+
+LIST_OF_VID_OUTPUTS
+main
+left
+right
+center
+both
+all

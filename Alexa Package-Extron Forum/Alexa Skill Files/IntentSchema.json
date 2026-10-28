@@ -1,0 +1,130 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "Your invocation name",
+      "intents": [
+        {
+          "intent": "startupIntent"
+        },
+        {
+          "intent": "shutdownIntent"
+        },
+        {
+          "intent": "inputoutputIntent",
+          "slots": [
+            {
+              "name": "input",
+              "type": "LIST_OF_VID_INPUTS"
+            },
+            {
+              "name": "output",
+              "type": "LIST_OF_VID_OUTPUTS"
+            }
+          ]
+        },
+        {
+          "intent": "volume_adjustIntent",
+          "slots": [
+            {
+              "name": "channel",
+              "type": "LIST_OF_AUD_CHANNELS"
+            },
+            {
+              "name": "up_down",
+              "type": "LIST_OF_UP_DOWN"
+            }
+          ]
+        },
+        {
+          "intent": "volume_setIntent",
+          "slots": [
+            {
+              "name": "channel",
+              "type": "LIST_OF_AUD_CHANNELS"
+            },
+            {
+              "name": "volume_level",
+              "type": "AMAZON.NUMBER"
+            }
+          ]
+        },
+        {
+          "intent": "volume_muteIntent",
+          "slots": [
+            {
+              "name": "channel",
+              "type": "LIST_OF_AUD_CHANNELS"
+            },
+            {
+              "name": "on_off",
+              "type": "LIST_OF_ON_OFF"
+            }
+          ]
+        },
+        {
+          "intent": "video_muteIntent",
+          "slots": [
+            {
+              "name": "on_off",
+              "type": "LIST_OF_ON_OFF"
+            }
+          ]
+        },
+        {
+          "intent": "video_freezeIntent",
+          "slots": [
+            {
+              "name": "on_off",
+              "type": "LIST_OF_ON_OFF"
+            }
+          ]
+        },
+        {
+          "intent": "transportIntent",
+          "slots": [
+            {
+              "name": "transport",
+              "type": "LIST_OF_TRANSPORTS"
+            }
+          ]
+        },
+        {
+          "intent": "lightingIntent",
+          "slots": [
+            {
+              "name": "lightlevel",
+              "type": "LIST_OF_LIGHT_SETTINGS"
+            }
+          ]
+        },
+        {
+          "intent": "lightingOnOffIntent",
+          "slots": [
+            {
+              "name": "on_off",
+              "type": "LIST_OF_ON_OFF"
+            }
+          ]
+        },
+        {
+          "intent": "shadesIntent",
+          "slots": [
+            {
+              "name": "up_down",
+              "type": "LIST_OF_UP_DOWN"
+            }
+          ]
+        },
+        {
+          "intent": "AMAZON.YesIntent"
+        },
+        {
+          "intent": "AMAZON.NoIntent"
+        },
+        {
+          "intent": "AMAZON.HelpIntent"
+        }
+      ]
+    }
+  }
+}

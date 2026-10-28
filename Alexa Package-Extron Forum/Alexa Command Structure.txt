@@ -1,0 +1,173 @@
+    # startupIntent
+    ['startup', 'power', 'system', 'on', '']
+
+    # shutdownIntent
+    ['shutdown', 'power', 'system', 'off', '']
+
+    # inputoutputIntent
+    ['inputoutput', 'show', 'hdmi', 'main', '']
+    ['inputoutput', 'show', 'hdmi', 'left', '']
+    ['inputoutput', 'show', 'hdmi', 'right', '']
+    ['inputoutput', 'show', 'hdmi', 'center', '']
+    ['inputoutput', 'show', 'hdmi', 'all', '']
+
+    ['inputoutput', 'show', 'vga', 'main', '']
+    ['inputoutput', 'show', 'vga', 'left', '']
+    ['inputoutput', 'show', 'vga', 'right', '']
+    ['inputoutput', 'show', 'vga', 'center', '']
+    ['inputoutput', 'show', 'vga', 'all', '']
+
+    ['inputoutput', 'show', 'displayport', 'main', '']
+    ['inputoutput', 'show', 'displayport', 'left', '']
+    ['inputoutput', 'show', 'displayport', 'right', '']
+    ['inputoutput', 'show', 'displayport', 'center', '']
+    ['inputoutput', 'show', 'displayport', 'all', '']
+
+    ['inputoutput', 'show', 'computer', 'main', '']
+    ['inputoutput', 'show', 'computer', 'left', '']
+    ['inputoutput', 'show', 'computer', 'right', '']
+    ['inputoutput', 'show', 'computer', 'center', '']
+    ['inputoutput', 'show', 'computer', 'all', '']
+
+    ['inputoutput', 'show', 'pc', 'main', '']
+    ['inputoutput', 'show', 'pc', 'left', '']
+    ['inputoutput', 'show', 'pc', 'right', '']
+    ['inputoutput', 'show', 'pc', 'center', '']
+    ['inputoutput', 'show', 'pc', 'all', '']
+
+    ['inputoutput', 'show', 'bluray', 'main', '']
+    ['inputoutput', 'show', 'bluray', 'left', '']
+    ['inputoutput', 'show', 'bluray', 'right', '']
+    ['inputoutput', 'show', 'bluray', 'center', '']
+    ['inputoutput', 'show', 'bluray', 'all', '']
+
+    ['inputoutput', 'show', 'laptop', 'main', '']
+    ['inputoutput', 'show', 'laptop', 'left', '']
+    ['inputoutput', 'show', 'laptop', 'right', '']
+    ['inputoutput', 'show', 'laptop', 'center', '']
+    ['inputoutput', 'show', 'laptop', 'all', '']
+
+    ['inputoutput', 'show', 'dvd', 'main', '']
+    ['inputoutput', 'show', 'dvd', 'left', '']
+    ['inputoutput', 'show', 'dvd', 'right', '']
+    ['inputoutput', 'show', 'dvd', 'center', '']
+    ['inputoutput', 'show', 'dvd', 'all', '']
+
+    ['inputoutput', 'show', 'document camera', 'main', '']
+    ['inputoutput', 'show', 'document camera', 'left', '']
+    ['inputoutput', 'show', 'document camera', 'right', '']
+    ['inputoutput', 'show', 'document camera', 'center', '']
+    ['inputoutput', 'show', 'document camera', 'all', '']
+
+    ['inputoutput', 'show', 'share link', 'main', '']
+    ['inputoutput', 'show', 'share link', 'left', '']
+    ['inputoutput', 'show', 'share link', 'right', '']
+    ['inputoutput', 'show', 'share link', 'center', '']
+    ['inputoutput', 'show', 'share link', 'all', '']
+
+    ['inputoutput', 'show', 'apple tv', 'main', '']
+    ['inputoutput', 'show', 'apple tv', 'left', '']
+    ['inputoutput', 'show', 'apple tv', 'right', '']
+    ['inputoutput', 'show', 'apple tv', 'center', '']
+    ['inputoutput', 'show', 'apple tv', 'all', '']
+
+    ['inputoutput', 'show', 'air media', 'main', '']
+    ['inputoutput', 'show', 'air media', 'left', '']
+    ['inputoutput', 'show', 'air media', 'right', '']
+    ['inputoutput', 'show', 'air media', 'center', '']
+    ['inputoutput', 'show', 'air media', 'all', '']
+
+    # volume_adjustIntent
+    ['volume', 'adjust', 'main', 'volume', 'up']
+    ['volume', 'adjust', 'main', 'volume', 'down']
+    ['volume', 'adjust', 'program', 'volume', 'up']
+    ['volume', 'adjust', 'program', 'volume', 'down']
+    ['volume', 'adjust', 'left', 'volume', 'up']
+    ['volume', 'adjust', 'left', 'volume', 'down']
+    ['volume', 'adjust', 'right', 'volume', 'up']
+    ['volume', 'adjust', 'right', 'volume', 'down']
+    ['volume', 'adjust', 'microphone', 'volume', 'up']
+    ['volume', 'adjust', 'microphone', 'volume', 'down']
+
+    # volume_setIntent
+    ['volume', 'set', 'main', 'volume', 'percent']
+    ['volume', 'set', 'program', 'volume', 'percent']
+    ['volume', 'set', 'left', 'volume', 'percent']
+    ['volume', 'set', 'right', 'volume', 'percent']
+    ['volume', 'set', 'microphone', 'volume', 'percent']
+
+    # volume_muteIntent
+    ['mute', 'set', 'main', 'mute', 'on']
+    ['mute', 'set', 'main', 'mute', 'off']
+    ['mute', 'set', 'program', 'mute', 'on']
+    ['mute', 'set', 'program', 'mute', 'off']
+    ['mute', 'set', 'left', 'mute', 'on']
+    ['mute', 'set', 'left', 'mute', 'off']
+    ['mute', 'set', 'right', 'mute', 'on']
+    ['mute', 'set', 'right', 'mute', 'off']
+    ['mute', 'set', 'microphone', 'mute', 'on']
+    ['mute', 'set', 'microphone', 'mute', 'off']
+
+    # powerIntent
+    ['power', 'power', 'device', 'bluray', 'on']
+    ['power', 'power', 'device' 'bluray', 'off']
+    ['power', 'power', 'device' 'dvd', 'on']
+    ['power', 'power', 'device' 'dvd', 'off']
+    ['power', 'power', 'device' 'vcr', 'on']
+    ['power', 'power', 'device' 'vcr', 'off']
+
+    # video_muteIntent
+    ['video_mute', 'set', 'video', 'mute', 'on']
+    ['video_mute', 'set', 'video', 'mute', 'off']
+
+    # video_freezeIntent
+    ['video_freeze', 'set', 'video', 'freeze', 'on']
+    ['video_freeze', 'set', 'video', 'freeze', 'off']
+
+    # transportsIntent
+    ['transports', 'set', 'transport', 'bluray', 'play', '']
+    ['transports', 'set', 'transport', 'bluray', 'pause']
+    ['transports', 'set', 'transport', 'bluray', 'stop']
+    ['transports', 'set', 'transport', 'bluray', 'rewind']
+    ['transports', 'set', 'transport', 'bluray', 'fastforward']
+    ['transports', 'set', 'transport', 'bluray', 'skip back']
+    ['transports', 'set', 'transport', 'bluray', 'skip forward']
+
+    ['transports', 'set', 'transport', 'dvd', 'play']
+    ['transports', 'set', 'transport', 'dvd', 'pause']
+    ['transports', 'set', 'transport', 'dvd', 'stop']
+    ['transports', 'set', 'transport', 'dvd', 'rewind']
+    ['transports', 'set', 'transport', 'dvd', 'fastforward']
+    ['transports', 'set', 'transport', 'dvd', 'skip back']
+    ['transports', 'set', 'transport', 'dvd', 'skip forward']
+
+    ['transports', 'set', 'transport', 'vcr', 'play']
+    ['transports', 'set', 'transport', 'vcr', 'pause']
+    ['transports', 'set', 'transport', 'vcr', 'stop']
+    ['transports', 'set', 'transport', 'vcr', 'rewind']
+    ['transports', 'set', 'transport', 'vcr', 'fastforward']
+    ['transports', 'set', 'transport', 'vcr', 'skip back']
+    ['transports', 'set', 'transport', 'vcr', 'skip forward']
+
+    # lightingIntent
+    ['lighting', 'set', 'environment', 'lights', 'on']
+    ['lighting', 'set', 'environment', 'lights', 'off']
+    ['lighting', 'set', 'environment', 'lights', 'preset 1']
+    ['lighting', 'set', 'environment', 'lights', 'low']
+    ['lighting', 'set', 'environment', 'lights', 'preset 2']
+    ['lighting', 'set', 'environment', 'lights', 'medium']
+    ['lighting', 'set', 'environment', 'lights', 'preset 3']
+    ['lighting', 'set', 'environment', 'lights', 'high']
+    ['lighting', 'set', 'environment', 'lights', 'preset 4']
+    ['lighting', 'set', 'environment', 'lights', 'presentation']
+
+    # shadesIntent
+    ['shades', 'set', 'environment', 'shades', 'up']
+    ['shades', 'set', 'environment', 'shades', 'down']
+
+    ## Requires different button presses depending on current conditions
+    # yesIntent    
+    ['yesintent', 'yes', '', '', '']
+
+    # noIntent   
+    ['nointent', 'no', '', '', '']

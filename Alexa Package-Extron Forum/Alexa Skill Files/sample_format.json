@@ -1,0 +1,121 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "Your invocation name",
+          "intents": [
+              {
+                  "name": "SelectedSubjectsYes",
+                  "slots": [],
+                  "samples": [
+                      "provide sample for SelectedSubjectsYes intent",
+                      "sample for SelectedSubjectsYes intent"
+                  ]
+              },
+              {
+                  "name": "UserIsOk",
+                  "slots": [
+                      {
+                          "name": "okslot",
+                          "type": "OK"
+                      }
+                  ],
+                  "samples": [
+                      "provide other samples for UserIsOk",
+                      "I'm {okslot}",
+                      "{okslot}"
+                  ]
+              },
+              {
+                  "name": "SelectedSubjectsNo",
+                  "slots": [],
+                  "samples": [
+                      "provide sample for SelectedSubjectsNo intent",
+                      "sample for SelectedSubjectsNo intent"
+                  ]
+              },
+              {
+                  "name": "UserIsNotOk",
+                  "slots": [
+                      {
+                          "name": "not_okslot",
+                          "type": "NOT_OK"
+                      }
+                  ],
+                  "samples": [
+                      "provide other samples for UserIsNotOk",
+                      "i'm {not_okslot}",
+                      "{not_okslot}"
+                  ]
+              },
+              {
+                  "name": "HowAreYou?",
+                  "slots": [],
+                  "samples": [
+                      "provide sample for HowAreYou intent",
+                      "sample for HowAreYou intent"
+                  ]
+              },
+              {
+                  "name": "SelectedSubjects",
+                  "slots": [
+                      {
+                          "name": "subjectslot",
+                          "type": "SUBJECT"
+                      }
+                  ],
+                  "samples": [
+                      "provide other samples for SelectedSubjects",
+                      "i choose {subjectslot}"
+                  ]
+              }
+          ],
+          "types": [
+              {
+                  "name": "OK",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "ok"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "yes"
+                          }
+                      }
+                  ]
+              },
+              {
+                  "name": "NOT_OK",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "not ok"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "nope"
+                          }
+                      }
+                  ]
+              },
+              {
+                  "name": "SUBJECT",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "Physics"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Biology"
+                          }
+                      }
+                  ]
+              }
+          ]
+      }
+  }
+}

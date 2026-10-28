@@ -1,0 +1,47 @@
+<invocation name> ==Extron System
+
+###Για να εκκινήσει το σύστημα###
+###Προυποθέτει ότι στα επόμενα 8 δευτερολ. θα δωθέι και εντολή###
+###Αλλιώς το συστημα τερματίζει###
+Alexa run <invocation name>
+Alexa open <invocation name>
+Alexa launch <invocation name>
+#############Matrix##########################################
+"matrix {input} to {output}", input: Rack PC,pc,clickshare,cisco,laptop,Hdmi
+"send {input} to {output}"	output:left screen,right screen, both screns
+ "turn system {on_off}"
+ "open lights in {lightsmode}",
+#############Lights##########################################
+"set lights in {lightsmode}", lightsmode:videoconference,brightscene,coldlights,warmlights,defaultscene,presentationmode,on,off
+"set lights {lightsmode}",
+"turn lights {lightsmode}",
+"set lights at {lightsmode}",
+"turn the lights {lightsmode}",
+"turn {lightsmode} the lights",
+"lights {lightsmode}"
+#############Shades##########################################
+ "shades {mode}"    mode:on,off,stop
+#############Monitors##########################################
+"{monitors_states} screens", monitors_states:shut down,turn off,off,on,turn on
+"{monitors_states} monitors",
+"monitors  {monitors_states}",
+"screens {monitors_states}"
+#############Preset##########################################
+"select {Input}"
+
+Alexa tell <invocation name> to <intent>
+Alexa ask <invocation name> to <intent>
+Alexa tell <invocation name> <intent>
+Alexa ask <invocation name> <intent>
+
+#############Power##########################################
+Not implemented
+#############Volume##########################################
+"set volume  {volumemode}",   volumemode:max,min,mute,unmute
+"set volume to {value} ",
+"volume {value} ",
+"volume to {value} percent",
+"set volume to {value} percent",
+"volume {volumemode}",
+"microphone {volumemode}",
+"set volume to {volumemode}"
